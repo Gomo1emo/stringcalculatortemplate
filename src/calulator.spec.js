@@ -9,9 +9,9 @@ describe("string calculator", function () {
     });
 });
 describe("string calculator", function () {
-    it("should return 1 if string is 1", function () {
+    it("should return 1 if string is '1'", function () {
         let calculator = new Calculator();
-        let calculatorResult = calculator.add('1');
+        let calculatorResult = calculator.add("1");
         expect(calculatorResult).toBe(1);
     });
 });
